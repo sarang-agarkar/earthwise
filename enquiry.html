@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>   
+    <!-- Document Meta
+    ============================================= -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--IE Compatibility Meta-->
+    <meta name="author" content="earthwise" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Outdoor Education, NLP, Telepathic animal & nature communication">  
+    <link href="assets/images/favicon/favicon.png" rel="icon">
+    
+    <!-- Stylesheets
+    ============================================= -->
+    <link href="assets/css/external.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- RS5.0 Main Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Document Title
+    ============================================= -->
+    <title>Earthwise</title>
+    
+    <style>
+	@font-face {
+	font-family:"Whitney-Book";
+	font-style:normal;
+	src: url(fonts/Whitney-Book.eot); /*if IE */
+	src: local("Whitney-Book"), url("assets/fonts/Whitney-Book.ttf") format("truetype"); /* non-IE */
+	}
+	</style> 
+    
+    <script src="lite_validation.js"></script>
+	<script>
+	required.add('Full_Name','NOT_EMPTY','Name');
+	required.add('Email_Address','EMAIL','Email');
+	required.add('Message','NOT_EMPTY','Your Message')
+	</script>
+</head>
+
+<body>
+							<form name="contactformlite" method="post" action="lite_process.php" onSubmit="return validate.check(this)">
+                            <div class="mb-30 bg-white text-center reservation-form">
+                                <form role="form" id="form-contact" method="post" action="" class="reservationForm mb-0">
+                                	<fieldset>                                
+                                    <div class="row">                                       
+                                        <div class="col-md-4">
+                                        	<input name="Full_Name" type="text" id="Full_Name" class="form-control" placeholder="Your Name">                                            
+                                        </div>
+                                        <div class="col-md-4">
+                                        	<input name="Email_Address" type="text" id="Email_Address" class="form-control" placeholder="Your Email">                                            
+                                        </div>
+                                        <div class="col-md-4">
+                                        	<input name="Contact_No" type="text" id="Contact_No" class="form-control" placeholder="Number">                                            
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12">
+                                        	<textarea name="Message" id="Message" class="form-control" rows="2" placeholder="Mention your favorable workshop or Add a message"></textarea>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12">
+                                        	<button name="Submit" value="Send Message" class="btn btn--secondary btn--block" id="form-contact-submit">SEND MESSAGE</button> 
+                                        </div>                                        
+                                    </div>
+                                    <!-- .row end -->
+                                    </fieldset>
+                                </form>
+                                <!-- form end -->
+                            </div>
+                            </form>
+
+</body>
+
+</html>
